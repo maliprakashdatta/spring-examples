@@ -5,7 +5,7 @@
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
     <bean id="helloService" class="com.swsa.service.HelloService">
         <!-- property injection-->
-        <property name="name" value="Amit"/>
+        <property name="name" value="Prakash"/>
         <property name="address" ref="address"/>
     </bean>
 
@@ -20,7 +20,7 @@
 
     <!--    setter injection-->
     <bean id="city" class="com.swsa.model.City">
-        <property name="name" value="Pune"/>
+        <property name="name" value="Jath"/>
         <!--<constructor-arg name="name" value="Pune"/>-->
     </bean>
 
